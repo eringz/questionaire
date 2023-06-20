@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/tiktok');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tiktok', sans-serif;
+}
+    h1{
+        text-align: center;
+        margin: 40px 0;
+        color: black;
+        letter-spacing: 3px;
+        text-shadow: 1px 2px 2px #ff0050;
+        
+    }
+        svg{
+            width: 40px;
+        }
+    h2{
+        text-align: center;
+        letter-spacing: 3px;
+        text-shadow: 1px 2px 2px #ff0050;
+    }
+    form{
+        margin: 20px;
+    }
+        p{
+            margin: 20px 0;
+            font-size: 1.5rem;
+        }
+        ul{
+            list-style: none;
+            margin: 0 40px;
+        }
+            ul li{
+                margin: 10px 0;
+            }
+            
+            input {
+                /* visibility:hidden; */
+                width: 10px;
+            }
+            input:checked + label {
+                background: #00f2ea;
+            }
+            i, label{
+                font-size: 1.2rem;
+            }
+            
+            button{
+                padding: 10px 55px;
+                background-color: #000000;
+                color: #00f2ea;
+                box-shadow: 5px 5px #ff0050;
+                letter-spacing: 5px;
+                text-shadow: 1px 2px 2px #ff0050; 
+            }
+            
